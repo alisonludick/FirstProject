@@ -6,14 +6,13 @@ header {
     text-align: center;
 }
 
-figcaption {
+figcaption.mindmap {
     font-family: fantasy;
     text-align: center;
 }
 
-figure.firstcode {
-    height: min-content;
-    width: min-content;
+figcaption.icons {
+    font-family: fantasy;
 }
 
 article > time {
@@ -22,11 +21,23 @@ article > time {
     font-weight: lighter;
 }
 
+article > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 main {
     padding: 5px 10px;
 }
 
 footer {
-    background-color: #b1abab;
+    background-color: #e0dbdb;
     padding: 5px 10px;
+}
+
+h3, article h4 {
+    color: rgb(245, 157, 26);
+}
+
+figure.langicon { 
+    display: inline-block;
 }
