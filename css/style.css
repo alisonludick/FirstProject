@@ -77,3 +77,7 @@ div > p {
     border: blueviolet solid;
     border-radius: 1em;
 }
+
+a {
+    font-style: italic;
+}
