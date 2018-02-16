@@ -3,7 +3,7 @@ header {
     color: #FFFFFF;
     padding: 1em 2em; 
     font-family: fantasy;
-    text-align: center;  
+    text-align: center;    
 }
 
 section {
@@ -26,9 +26,9 @@ figure.langicon {
     margin: 0.75em;   
 }
 
-.map {
+img#map {
     width: 100%;
-    display: inline-block;    
+    display: block;
 }
 
 article > time {
@@ -53,7 +53,7 @@ footer {
     border: 0.05em outset;
     background-color: #F0F0F0;
     margin: 0em;
-    padding: 0.5em;    
+    padding: 0.5em;
 }
 
 h4 {
