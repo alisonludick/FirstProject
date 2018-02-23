@@ -91,3 +91,10 @@ div > p {
 a {
     font-style: italic;
 }
+
+a#footerlink {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-style: normal;
+    text-decoration: none;
+}
