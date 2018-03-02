@@ -6,13 +6,18 @@ header {
     text-align: center;  
 }
 
-section {
-    padding: 0.5em;
-    margin: 0.5em;
+div.menu {
+    padding: 0.2em 0.5em;
+    margin: 1em;
 }
 
-div.menu {
-    float: right;    
+a#About, a#Blog, a#Contact {
+    float: right;
+    border: 0.05em outset;
+    background-color: #F0F0F0;
+    margin: 0auto;
+    padding: 0.2em 0.5em; 
+    text-align: center;    
 }
 
 figcaption.mindmap {
@@ -57,7 +62,7 @@ footer {
     border: 0.05em outset;
     background-color: #F0F0F0;
     margin: 0auto;
-    padding: 0.1em;
+    padding: 0%;
     text-align: center;    
 }
 
@@ -103,12 +108,12 @@ a:visited  {
 
 div.footerlink {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: small;
+    font-size: small;
     font-style: normal;
     text-decoration: none;     
 }
 
 .footerlink a {
     padding: 0.2em 0.5em;
-    margin: 0.2em;
+    margin: 0auto;
 }
